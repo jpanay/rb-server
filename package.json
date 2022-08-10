@@ -1,0 +1,30 @@
+{
+  "name": "rb-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpanay/rb-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpanay/rb-server/issues"
+  },
+  "homepage": "https://github.com/jpanay/rb-server#readme"
+}
